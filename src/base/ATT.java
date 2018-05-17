@@ -31,7 +31,7 @@ public class ATT {
 	  log.click();;
 			
 		WebElement email = driver.findElement(By.id("userName"));	
-		email.sendKeys("***");
+		email.sendKeys("******");
 
 		WebElement password = driver.findElement(By.id("password"));
 		password.sendKeys("*****");
