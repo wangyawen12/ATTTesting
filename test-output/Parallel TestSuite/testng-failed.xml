@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Parallel TestSuite]" parallel="tests">
+  <test name="FireFox (failed)" parallel="tests">
+    <classes>
+      <class name="regressionsuite.Firefox">
+        <methods>
+          <include name="f"/>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- regressionsuite.Firefox -->
+    </classes>
+  </test> <!-- FireFox (failed) -->
+</suite> <!-- Failed suite [Parallel TestSuite] -->
