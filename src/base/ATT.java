@@ -31,14 +31,12 @@ public class ATT {
 	  log.click();;
 			
 		WebElement email = driver.findElement(By.id("userName"));	
-		email.sendKeys("harrykjg87");
+		email.sendKeys("***");
 	
-//		WebElement password = driver.findElement(By.id("password"));	
-//		password.sendKeys("Harryk123123");
-//	  
+
 
 		WebElement password = driver.findElement(By.id("password"));
-		password.sendKeys("Harryk123123");
+		password.sendKeys("*****");
 		
 		WebElement loginButton = driver.findElement(By.id("loginButton"));
 		loginButton.click();
