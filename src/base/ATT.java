@@ -54,7 +54,6 @@ public class ATT {
 			System.out.print(list.get(i).getText());
 		}
 		
-		
   }
   
   
