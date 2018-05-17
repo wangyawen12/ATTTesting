@@ -44,7 +44,6 @@ public class ATT {
 	    
 		driver.findElement(By.xpath("//div[@id='continue']")).click();
 		
-		
 		driver.findElement(By.xpath("//button[@ng-repeat='button in viewModel.buttons']")).click();
 		driver.findElement(By.id("tab1")).click();
 	
